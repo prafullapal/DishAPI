@@ -6,5 +6,7 @@ Dish API is a REST API which can operate basic GET, POST, PUT, DELETE operations
 
 ### Setup:
 To run this project, install it locally using npm:
+```
 $ npm install
 $ npm start
+```
