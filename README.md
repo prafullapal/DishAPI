@@ -19,7 +19,6 @@ $ npm start
 * /dishes/:dishId/comments/:commentId (GET, PUT, DELETE)
 
 ### JSON Schema
-
 ```
 ${
 $    "name": "Pizza",
