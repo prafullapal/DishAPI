@@ -19,25 +19,25 @@ $ npm start
 * /dishes/:dishId/comments/:commentId (GET, PUT, DELETE)
 
 ### JSON Schema
-```
-${
-$    "name": "Pizza",
-$    "description": "An Italian Dish",
-$    "image": "http://dishbackend.com/pizza.jpg",
-$    "category": "Fast Food",
-$    "label": "Delicious",
-$    "price": "12",
-$    "comments": [
-$        {
-$            "rating": "4.7",
-$            "comment": "Delicious",
-$            "author": "Ragnar Lothbrok"
-$        },
-$        {
-$            "rating": "4.8",
-$            "comment": "Delicious",
-$            "author": "Jon Snow"
-$        }
-$    ]
-$}
+```JSON
+{
+    "name": "Pizza",
+    "description": "An Italian Dish",
+    "image": "http://dishbackend.com/pizza.jpg",
+    "category": "Fast Food",
+    "label": "Delicious",
+    "price": "12",
+    "comments": [
+        {
+            "rating": "4.7",
+            "comment": "Delicious",
+            "author": "Ragnar Lothbrok"
+        },
+        {
+            "rating": "4.8",
+            "comment": "Delicious",
+            "author": "Jon Snow"
+        }
+    ]
+}
 ```
