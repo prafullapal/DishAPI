@@ -1,0 +1,19 @@
+{
+  "name": "DishAPI",
+  "version": "1.0.0",
+  "description": "Testing REST API example",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Prafulla Pal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.1.7",
+    "mongoose-currency": "^0.2.0",
+    "multer": "^1.4.3",
+    "multer-gridfs-storage": "^5.0.2"
+  }
+}
