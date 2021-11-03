@@ -1,7 +1,7 @@
-# Test
- 
-## Dish API
+# Dish API
+
 ### Description:
+
 Dish API is a REST API which can operate basic GET, POST, PUT, DELETE operations to Create, Read, Update and Delete (CRUD) on MongoDB Server.
 
 ### Setup:
